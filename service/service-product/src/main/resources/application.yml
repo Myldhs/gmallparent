@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: service-product
+  profiles:
+    active: dev #表示在这个配置文件中还要读取另一个名为application-dev.yml的文件 （开发环境）
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.200.128:8848 #配置nacos服务注册、发现、配置中心地址

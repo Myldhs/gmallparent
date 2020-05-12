@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="servicemq" />
+        <module name="servicelist" />
+        <module name="serviceuserclient" />
+        <module name="rabbitutil" />
+        <module name="servicecart" />
+        <module name="model" />
+        <module name="server-gateway" />
+        <module name="servicecartclient" />
+        <module name="servicelistclient" />
+        <module name="servicepaymentclient" />
+        <module name="serviceactivityclient" />
+        <module name="weball" />
+        <module name="serviceutil" />
+        <module name="commonutil" />
+        <module name="serviceproductclient" />
+        <module name="serviceitemclient" />
+        <module name="service-product" />
+        <module name="serviceorderclient" />
+        <module name="serviceitem" />
+        <module name="serviceactivity" />
+        <module name="serviceorder" />
+        <module name="servicetask" />
+        <module name="serviceuser" />
+        <module name="webutil" />
+        <module name="ware-manage" />
+        <module name="servicepayment" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="commonutil" options="-parameters" />
+      <module name="gmallparent" options="-parameters" />
+      <module name="model" options="-parameters" />
+      <module name="rabbitutil" options="-parameters" />
+      <module name="server-gateway" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="service-product" options="-parameters" />
+      <module name="serviceactivity" options="-parameters" />
+      <module name="serviceactivityclient" options="-parameters" />
+      <module name="servicecart" options="-parameters" />
+      <module name="servicecartclient" options="-parameters" />
+      <module name="serviceclient" options="-parameters" />
+      <module name="serviceitem" options="-parameters" />
+      <module name="serviceitemclient" options="-parameters" />
+      <module name="servicelist" options="-parameters" />
+      <module name="servicelistclient" options="-parameters" />
+      <module name="servicemq" options="-parameters" />
+      <module name="serviceorder" options="-parameters" />
+      <module name="serviceorderclient" options="-parameters" />
+      <module name="servicepayment" options="-parameters" />
+      <module name="servicepaymentclient" options="-parameters" />
+      <module name="serviceproductclient" options="-parameters" />
+      <module name="servicetask" options="-parameters" />
+      <module name="serviceuser" options="-parameters" />
+      <module name="serviceuserclient" options="-parameters" />
+      <module name="serviceutil" options="-parameters" />
+      <module name="ware-manage" options="-parameters" />
+      <module name="web" options="-parameters" />
+      <module name="weball" options="-parameters" />
+      <module name="webutil" options="-parameters" />
+    </option>
+  </component>
+</project>
